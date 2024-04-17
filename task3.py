@@ -24,3 +24,14 @@ Enter a number: 5
 Enter a number: 4.0
 4.0 is a positive integer
 """
+
+
+n = input("Enter a number of any type.")
+n = float(n)
+
+i = round(n)
+
+if n > 0 and i == n:
+    print(f"{n} is a positive integer.")
+else:
+    print(f"{n} is not a positive integer.")
